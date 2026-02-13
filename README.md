@@ -2,7 +2,7 @@
 
 A comprehensive evaluation proving that **GLM-OCR** and **Qwen2.5-VL-3B** implement NaViT-style native resolution processing for document OCR.
 
-**Author:** Mohamed Amine Zinabi
+**Author:** Mohamed Amine Zinabi And Abdelaaziz Sabri
 
 ---
 
@@ -60,8 +60,6 @@ python --version
 ```
 glm_ocr_test/
 ├── README.md                        # This file
-├── navit_verification_report.tex    # Full LaTeX report
-├── Navit-Style Tests Report.pdf     # Compiled PDF report
 │
 ├── generate_documents.py            # Phase 1: Realistic document image generator
 ├── test_doc_navit.py                # Phase 1: Document NaViT test (GLM + Qwen)
