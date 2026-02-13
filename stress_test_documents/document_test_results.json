@@ -1,0 +1,214 @@
+{
+  "timestamp": "2026-02-12T17:54:40.329037",
+  "test_type": "realistic_documents",
+  "glm_ocr": {
+    "passes": "0/10",
+    "results": [
+      {
+        "id": "01_long_receipt",
+        "desc": "Supermarket receipt",
+        "dimensions": "100x2800",
+        "expected_tokens": 1400,
+        "actual_tokens": null,
+        "preprocessed_size": null,
+        "status": "ERROR",
+        "error": "argument of type 'NoneType' is not iterable"
+      },
+      {
+        "id": "02_wide_spreadsheet",
+        "desc": "Employee database table",
+        "dimensions": "2800x100",
+        "expected_tokens": 1400,
+        "actual_tokens": null,
+        "preprocessed_size": null,
+        "status": "ERROR",
+        "error": "argument of type 'NoneType' is not iterable"
+      },
+      {
+        "id": "03_research_paper_a4",
+        "desc": "Two-column research paper",
+        "dimensions": "595x842",
+        "expected_tokens": 2520,
+        "actual_tokens": null,
+        "preprocessed_size": null,
+        "status": "ERROR",
+        "error": "argument of type 'NoneType' is not iterable"
+      },
+      {
+        "id": "04_id_card_square",
+        "desc": "National ID card",
+        "dimensions": "512x512",
+        "expected_tokens": 1296,
+        "actual_tokens": null,
+        "preprocessed_size": null,
+        "status": "ERROR",
+        "error": "argument of type 'NoneType' is not iterable"
+      },
+      {
+        "id": "05_narrow_invoice",
+        "desc": "Narrow service invoice",
+        "dimensions": "140x2100",
+        "expected_tokens": 1500,
+        "actual_tokens": null,
+        "preprocessed_size": null,
+        "status": "ERROR",
+        "error": "argument of type 'NoneType' is not iterable"
+      },
+      {
+        "id": "06_panoramic_timeline",
+        "desc": "Project timeline strip",
+        "dimensions": "3500x70",
+        "expected_tokens": 1250,
+        "actual_tokens": null,
+        "preprocessed_size": null,
+        "status": "ERROR",
+        "error": "argument of type 'NoneType' is not iterable"
+      },
+      {
+        "id": "07_mobile_form",
+        "desc": "Mobile registration form",
+        "dimensions": "375x812",
+        "expected_tokens": 1508,
+        "actual_tokens": null,
+        "preprocessed_size": null,
+        "status": "ERROR",
+        "error": "argument of type 'NoneType' is not iterable"
+      },
+      {
+        "id": "08_financial_report_4k",
+        "desc": "Annual financial report (4K)",
+        "dimensions": "3840x2160",
+        "expected_tokens": 42196,
+        "actual_tokens": null,
+        "preprocessed_size": null,
+        "status": "ERROR",
+        "error": "argument of type 'NoneType' is not iterable"
+      },
+      {
+        "id": "09_medical_prescription",
+        "desc": "Medical prescription",
+        "dimensions": "987x610",
+        "expected_tokens": 3010,
+        "actual_tokens": null,
+        "preprocessed_size": null,
+        "status": "ERROR",
+        "error": "argument of type 'NoneType' is not iterable"
+      },
+      {
+        "id": "10_postage_stamp",
+        "desc": "Postage stamp (tiny)",
+        "dimensions": "64x64",
+        "expected_tokens": 16,
+        "actual_tokens": null,
+        "preprocessed_size": null,
+        "status": "ERROR",
+        "error": "argument of type 'NoneType' is not iterable"
+      }
+    ]
+  },
+  "qwen_vl": {
+    "passes": "10/10",
+    "results": [
+      {
+        "id": "01_long_receipt",
+        "desc": "Supermarket receipt",
+        "dimensions": "100x2800",
+        "expected_tokens": 1400,
+        "actual_tokens": 1600,
+        "grid": "200x8",
+        "status": "PASS",
+        "padding": "+12w,+0h"
+      },
+      {
+        "id": "02_wide_spreadsheet",
+        "desc": "Employee database table",
+        "dimensions": "2800x100",
+        "expected_tokens": 1400,
+        "actual_tokens": 1600,
+        "grid": "8x200",
+        "status": "PASS",
+        "padding": "+0w,+12h"
+      },
+      {
+        "id": "03_research_paper_a4",
+        "desc": "Two-column research paper",
+        "dimensions": "595x842",
+        "expected_tokens": 2520,
+        "actual_tokens": 2520,
+        "grid": "60x42",
+        "status": "PASS",
+        "padding": "+-7w,+-2h"
+      },
+      {
+        "id": "04_id_card_square",
+        "desc": "National ID card",
+        "dimensions": "512x512",
+        "expected_tokens": 1296,
+        "actual_tokens": 1296,
+        "grid": "36x36",
+        "status": "PASS",
+        "padding": "+-8w,+-8h"
+      },
+      {
+        "id": "05_narrow_invoice",
+        "desc": "Narrow service invoice",
+        "dimensions": "140x2100",
+        "expected_tokens": 1500,
+        "actual_tokens": 1500,
+        "grid": "150x10",
+        "status": "PASS",
+        "padding": "+0w,+0h"
+      },
+      {
+        "id": "06_panoramic_timeline",
+        "desc": "Project timeline strip",
+        "dimensions": "3500x70",
+        "expected_tokens": 1250,
+        "actual_tokens": 1000,
+        "grid": "4x250",
+        "status": "PASS",
+        "padding": "+0w,+-14h"
+      },
+      {
+        "id": "07_mobile_form",
+        "desc": "Mobile registration form",
+        "dimensions": "375x812",
+        "expected_tokens": 1508,
+        "actual_tokens": 1508,
+        "grid": "58x26",
+        "status": "PASS",
+        "padding": "+-11w,+0h"
+      },
+      {
+        "id": "08_financial_report_4k",
+        "desc": "Annual financial report (4K)",
+        "dimensions": "3840x2160",
+        "expected_tokens": 42196,
+        "actual_tokens": 42196,
+        "grid": "154x274",
+        "status": "PASS",
+        "padding": "+-4w,+-4h"
+      },
+      {
+        "id": "09_medical_prescription",
+        "desc": "Medical prescription",
+        "dimensions": "987x610",
+        "expected_tokens": 3010,
+        "actual_tokens": 3080,
+        "grid": "44x70",
+        "status": "PASS",
+        "padding": "+-7w,+6h"
+      },
+      {
+        "id": "10_postage_stamp",
+        "desc": "Postage stamp (tiny)",
+        "dimensions": "64x64",
+        "expected_tokens": 16,
+        "actual_tokens": 16,
+        "grid": "4x4",
+        "status": "PASS",
+        "padding": "+-8w,+-8h"
+      }
+    ]
+  }
+}

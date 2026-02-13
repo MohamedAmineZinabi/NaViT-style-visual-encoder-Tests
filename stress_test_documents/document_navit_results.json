@@ -1,0 +1,220 @@
+{
+  "timestamp": "2026-02-13T19:18:04.997744",
+  "test_type": "realistic_documents",
+  "results": {
+    "glm": [
+      {
+        "id": "01_long_receipt",
+        "desc": "Supermarket receipt",
+        "dimensions": "100x2800",
+        "expected_tokens": 1400,
+        "actual_tokens": 1600,
+        "preprocessed_size": "8x200 grid",
+        "status": "PASS",
+        "grid": "200x8",
+        "padding": "+12w,+0h"
+      },
+      {
+        "id": "02_wide_spreadsheet",
+        "desc": "Employee database table",
+        "dimensions": "2800x100",
+        "expected_tokens": 1400,
+        "actual_tokens": 1600,
+        "preprocessed_size": "200x8 grid",
+        "status": "PASS",
+        "grid": "8x200",
+        "padding": "+0w,+12h"
+      },
+      {
+        "id": "03_research_paper_a4",
+        "desc": "Two-column research paper",
+        "dimensions": "595x842",
+        "expected_tokens": 2520,
+        "actual_tokens": 2520,
+        "preprocessed_size": "42x60 grid",
+        "status": "PASS",
+        "grid": "60x42",
+        "padding": "+-7w,+-2h"
+      },
+      {
+        "id": "04_id_card_square",
+        "desc": "National ID card",
+        "dimensions": "512x512",
+        "expected_tokens": 1296,
+        "actual_tokens": 1296,
+        "preprocessed_size": "36x36 grid",
+        "status": "PASS",
+        "grid": "36x36",
+        "padding": "+-8w,+-8h"
+      },
+      {
+        "id": "05_narrow_invoice",
+        "desc": "Narrow service invoice",
+        "dimensions": "140x2100",
+        "expected_tokens": 1500,
+        "actual_tokens": 1500,
+        "preprocessed_size": "10x150 grid",
+        "status": "PASS",
+        "grid": "150x10",
+        "padding": "+0w,+0h"
+      },
+      {
+        "id": "06_panoramic_timeline",
+        "desc": "Project timeline strip",
+        "dimensions": "3500x70",
+        "expected_tokens": 1250,
+        "actual_tokens": 1000,
+        "preprocessed_size": "250x4 grid",
+        "status": "PASS",
+        "grid": "4x250",
+        "padding": "+0w,+-14h"
+      },
+      {
+        "id": "07_mobile_form",
+        "desc": "Mobile registration form",
+        "dimensions": "375x812",
+        "expected_tokens": 1508,
+        "actual_tokens": 1508,
+        "preprocessed_size": "26x58 grid",
+        "status": "PASS",
+        "grid": "58x26",
+        "padding": "+-11w,+0h"
+      },
+      {
+        "id": "08_financial_report_4k",
+        "desc": "Annual financial report (4K)",
+        "dimensions": "3840x2160",
+        "expected_tokens": 42196,
+        "actual_tokens": 24128,
+        "preprocessed_size": "208x116 grid",
+        "status": "PASS",
+        "grid": "116x208",
+        "padding": "+-928w,+-536h"
+      },
+      {
+        "id": "09_medical_prescription",
+        "desc": "Medical prescription",
+        "dimensions": "987x610",
+        "expected_tokens": 3010,
+        "actual_tokens": 3080,
+        "preprocessed_size": "70x44 grid",
+        "status": "PASS",
+        "grid": "44x70",
+        "padding": "+-7w,+6h"
+      },
+      {
+        "id": "10_postage_stamp",
+        "desc": "Postage stamp (tiny)",
+        "dimensions": "64x64",
+        "expected_tokens": 16,
+        "actual_tokens": 36,
+        "preprocessed_size": "6x6 grid",
+        "status": "PASS",
+        "grid": "6x6",
+        "padding": "+20w,+20h"
+      }
+    ],
+    "qwen": [
+      {
+        "id": "01_long_receipt",
+        "desc": "Supermarket receipt",
+        "dimensions": "100x2800",
+        "expected_tokens": 1400,
+        "actual_tokens": 1600,
+        "grid": "200x8",
+        "padding": "+12w,+0h",
+        "status": "PASS"
+      },
+      {
+        "id": "02_wide_spreadsheet",
+        "desc": "Employee database table",
+        "dimensions": "2800x100",
+        "expected_tokens": 1400,
+        "actual_tokens": 1600,
+        "grid": "8x200",
+        "padding": "+0w,+12h",
+        "status": "PASS"
+      },
+      {
+        "id": "03_research_paper_a4",
+        "desc": "Two-column research paper",
+        "dimensions": "595x842",
+        "expected_tokens": 2520,
+        "actual_tokens": 2520,
+        "grid": "60x42",
+        "padding": "+-7w,+-2h",
+        "status": "PASS"
+      },
+      {
+        "id": "04_id_card_square",
+        "desc": "National ID card",
+        "dimensions": "512x512",
+        "expected_tokens": 1296,
+        "actual_tokens": 1296,
+        "grid": "36x36",
+        "padding": "+-8w,+-8h",
+        "status": "PASS"
+      },
+      {
+        "id": "05_narrow_invoice",
+        "desc": "Narrow service invoice",
+        "dimensions": "140x2100",
+        "expected_tokens": 1500,
+        "actual_tokens": 1500,
+        "grid": "150x10",
+        "padding": "+0w,+0h",
+        "status": "PASS"
+      },
+      {
+        "id": "06_panoramic_timeline",
+        "desc": "Project timeline strip",
+        "dimensions": "3500x70",
+        "expected_tokens": 1250,
+        "actual_tokens": 1000,
+        "grid": "4x250",
+        "padding": "+0w,+-14h",
+        "status": "PASS"
+      },
+      {
+        "id": "07_mobile_form",
+        "desc": "Mobile registration form",
+        "dimensions": "375x812",
+        "expected_tokens": 1508,
+        "actual_tokens": 1508,
+        "grid": "58x26",
+        "padding": "+-11w,+0h",
+        "status": "PASS"
+      },
+      {
+        "id": "08_financial_report_4k",
+        "desc": "Annual financial report (4K)",
+        "dimensions": "3840x2160",
+        "expected_tokens": 42196,
+        "actual_tokens": 42196,
+        "grid": "154x274",
+        "padding": "+-4w,+-4h",
+        "status": "PASS"
+      },
+      {
+        "id": "09_medical_prescription",
+        "desc": "Medical prescription",
+        "dimensions": "987x610",
+        "expected_tokens": 3010,
+        "actual_tokens": 3080,
+        "grid": "44x70",
+        "padding": "+-7w,+6h",
+        "status": "PASS"
+      },
+      {
+        "id": "10_postage_stamp",
+        "desc": "Postage stamp (tiny)",
+        "dimensions": "64x64",
+        "expected_tokens": 16,
+        "actual_tokens": 16,
+        "grid": "4x4",
+        "padding": "+-8w,+-8h",
+        "status": "PASS"
+      }
+    ]
+  }
+}
