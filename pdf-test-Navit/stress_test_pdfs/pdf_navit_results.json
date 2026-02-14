@@ -1,0 +1,647 @@
+{
+  "timestamp": "2026-02-13T19:14:12.097004",
+  "test_type": "multi_page_pdf",
+  "dpi": 150,
+  "max_pages_per_pdf": 5,
+  "pdfs": {
+    "01_financial_report": {
+      "total_pages": 15,
+      "sampled_pages": 4,
+      "page_dimensions": [
+        "1241x1754"
+      ],
+      "glm": [
+        {
+          "page": 1,
+          "width": 1241,
+          "height": 1754,
+          "expected_tokens": 11000,
+          "actual_tokens": 11088,
+          "grid": "126x88",
+          "padding": "+-9w,+10h",
+          "status": "PASS"
+        },
+        {
+          "page": 6,
+          "width": 1241,
+          "height": 1754,
+          "expected_tokens": 11000,
+          "actual_tokens": 11088,
+          "grid": "126x88",
+          "padding": "+-9w,+10h",
+          "status": "PASS"
+        },
+        {
+          "page": 11,
+          "width": 1241,
+          "height": 1754,
+          "expected_tokens": 11000,
+          "actual_tokens": 11088,
+          "grid": "126x88",
+          "padding": "+-9w,+10h",
+          "status": "PASS"
+        },
+        {
+          "page": 15,
+          "width": 1241,
+          "height": 1754,
+          "expected_tokens": 11000,
+          "actual_tokens": 11088,
+          "grid": "126x88",
+          "padding": "+-9w,+10h",
+          "status": "PASS"
+        }
+      ],
+      "qwen": [
+        {
+          "page": 1,
+          "width": 1241,
+          "height": 1754,
+          "expected_tokens": 11000,
+          "actual_tokens": 11088,
+          "grid": "126x88",
+          "padding": "+-9w,+10h",
+          "status": "PASS"
+        },
+        {
+          "page": 6,
+          "width": 1241,
+          "height": 1754,
+          "expected_tokens": 11000,
+          "actual_tokens": 11088,
+          "grid": "126x88",
+          "padding": "+-9w,+10h",
+          "status": "PASS"
+        },
+        {
+          "page": 11,
+          "width": 1241,
+          "height": 1754,
+          "expected_tokens": 11000,
+          "actual_tokens": 11088,
+          "grid": "126x88",
+          "padding": "+-9w,+10h",
+          "status": "PASS"
+        },
+        {
+          "page": 15,
+          "width": 1241,
+          "height": 1754,
+          "expected_tokens": 11000,
+          "actual_tokens": 11088,
+          "grid": "126x88",
+          "padding": "+-9w,+10h",
+          "status": "PASS"
+        }
+      ]
+    },
+    "02_mixed_sizes": {
+      "total_pages": 10,
+      "sampled_pages": 4,
+      "page_dimensions": [
+        "2481x1754",
+        "1275x1650",
+        "1241x1754"
+      ],
+      "glm": [
+        {
+          "page": 1,
+          "width": 1241,
+          "height": 1754,
+          "expected_tokens": 11000,
+          "actual_tokens": 11088,
+          "grid": "126x88",
+          "padding": "+-9w,+10h",
+          "status": "PASS"
+        },
+        {
+          "page": 4,
+          "width": 1275,
+          "height": 1650,
+          "expected_tokens": 10647,
+          "actual_tokens": 10856,
+          "grid": "118x92",
+          "padding": "+13w,+2h",
+          "status": "PASS"
+        },
+        {
+          "page": 7,
+          "width": 2481,
+          "height": 1754,
+          "expected_tokens": 22125,
+          "actual_tokens": 22428,
+          "grid": "126x178",
+          "padding": "+11w,+10h",
+          "status": "PASS"
+        },
+        {
+          "page": 10,
+          "width": 1241,
+          "height": 1754,
+          "expected_tokens": 11000,
+          "actual_tokens": 11088,
+          "grid": "126x88",
+          "padding": "+-9w,+10h",
+          "status": "PASS"
+        }
+      ],
+      "qwen": [
+        {
+          "page": 1,
+          "width": 1241,
+          "height": 1754,
+          "expected_tokens": 11000,
+          "actual_tokens": 11088,
+          "grid": "126x88",
+          "padding": "+-9w,+10h",
+          "status": "PASS"
+        },
+        {
+          "page": 4,
+          "width": 1275,
+          "height": 1650,
+          "expected_tokens": 10647,
+          "actual_tokens": 10856,
+          "grid": "118x92",
+          "padding": "+13w,+2h",
+          "status": "PASS"
+        },
+        {
+          "page": 7,
+          "width": 2481,
+          "height": 1754,
+          "expected_tokens": 22125,
+          "actual_tokens": 22428,
+          "grid": "126x178",
+          "padding": "+11w,+10h",
+          "status": "PASS"
+        },
+        {
+          "page": 10,
+          "width": 1241,
+          "height": 1754,
+          "expected_tokens": 11000,
+          "actual_tokens": 11088,
+          "grid": "126x88",
+          "padding": "+-9w,+10h",
+          "status": "PASS"
+        }
+      ]
+    },
+    "03_long_contract": {
+      "total_pages": 30,
+      "sampled_pages": 4,
+      "page_dimensions": [
+        "1241x1754"
+      ],
+      "glm": [
+        {
+          "page": 1,
+          "width": 1241,
+          "height": 1754,
+          "expected_tokens": 11000,
+          "actual_tokens": 11088,
+          "grid": "126x88",
+          "padding": "+-9w,+10h",
+          "status": "PASS"
+        },
+        {
+          "page": 11,
+          "width": 1241,
+          "height": 1754,
+          "expected_tokens": 11000,
+          "actual_tokens": 11088,
+          "grid": "126x88",
+          "padding": "+-9w,+10h",
+          "status": "PASS"
+        },
+        {
+          "page": 21,
+          "width": 1241,
+          "height": 1754,
+          "expected_tokens": 11000,
+          "actual_tokens": 11088,
+          "grid": "126x88",
+          "padding": "+-9w,+10h",
+          "status": "PASS"
+        },
+        {
+          "page": 30,
+          "width": 1241,
+          "height": 1754,
+          "expected_tokens": 11000,
+          "actual_tokens": 11088,
+          "grid": "126x88",
+          "padding": "+-9w,+10h",
+          "status": "PASS"
+        }
+      ],
+      "qwen": [
+        {
+          "page": 1,
+          "width": 1241,
+          "height": 1754,
+          "expected_tokens": 11000,
+          "actual_tokens": 11088,
+          "grid": "126x88",
+          "padding": "+-9w,+10h",
+          "status": "PASS"
+        },
+        {
+          "page": 11,
+          "width": 1241,
+          "height": 1754,
+          "expected_tokens": 11000,
+          "actual_tokens": 11088,
+          "grid": "126x88",
+          "padding": "+-9w,+10h",
+          "status": "PASS"
+        },
+        {
+          "page": 21,
+          "width": 1241,
+          "height": 1754,
+          "expected_tokens": 11000,
+          "actual_tokens": 11088,
+          "grid": "126x88",
+          "padding": "+-9w,+10h",
+          "status": "PASS"
+        },
+        {
+          "page": 30,
+          "width": 1241,
+          "height": 1754,
+          "expected_tokens": 11000,
+          "actual_tokens": 11088,
+          "grid": "126x88",
+          "padding": "+-9w,+10h",
+          "status": "PASS"
+        }
+      ]
+    },
+    "04_receipt_roll": {
+      "total_pages": 20,
+      "sampled_pages": 4,
+      "page_dimensions": [
+        "459x1667"
+      ],
+      "glm": [
+        {
+          "page": 1,
+          "width": 459,
+          "height": 1667,
+          "expected_tokens": 3808,
+          "actual_tokens": 3840,
+          "grid": "120x32",
+          "padding": "+-11w,+13h",
+          "status": "PASS"
+        },
+        {
+          "page": 7,
+          "width": 459,
+          "height": 1667,
+          "expected_tokens": 3808,
+          "actual_tokens": 3840,
+          "grid": "120x32",
+          "padding": "+-11w,+13h",
+          "status": "PASS"
+        },
+        {
+          "page": 14,
+          "width": 459,
+          "height": 1667,
+          "expected_tokens": 3808,
+          "actual_tokens": 3840,
+          "grid": "120x32",
+          "padding": "+-11w,+13h",
+          "status": "PASS"
+        },
+        {
+          "page": 20,
+          "width": 459,
+          "height": 1667,
+          "expected_tokens": 3808,
+          "actual_tokens": 3840,
+          "grid": "120x32",
+          "padding": "+-11w,+13h",
+          "status": "PASS"
+        }
+      ],
+      "qwen": [
+        {
+          "page": 1,
+          "width": 459,
+          "height": 1667,
+          "expected_tokens": 3808,
+          "actual_tokens": 3840,
+          "grid": "120x32",
+          "padding": "+-11w,+13h",
+          "status": "PASS"
+        },
+        {
+          "page": 7,
+          "width": 459,
+          "height": 1667,
+          "expected_tokens": 3808,
+          "actual_tokens": 3840,
+          "grid": "120x32",
+          "padding": "+-11w,+13h",
+          "status": "PASS"
+        },
+        {
+          "page": 14,
+          "width": 459,
+          "height": 1667,
+          "expected_tokens": 3808,
+          "actual_tokens": 3840,
+          "grid": "120x32",
+          "padding": "+-11w,+13h",
+          "status": "PASS"
+        },
+        {
+          "page": 20,
+          "width": 459,
+          "height": 1667,
+          "expected_tokens": 3808,
+          "actual_tokens": 3840,
+          "grid": "120x32",
+          "padding": "+-11w,+13h",
+          "status": "PASS"
+        }
+      ]
+    },
+    "05_presentation": {
+      "total_pages": 25,
+      "sampled_pages": 4,
+      "page_dimensions": [
+        "1754x1241"
+      ],
+      "glm": [
+        {
+          "page": 1,
+          "width": 1754,
+          "height": 1241,
+          "expected_tokens": 11000,
+          "actual_tokens": 11088,
+          "grid": "88x126",
+          "padding": "+10w,+-9h",
+          "status": "PASS"
+        },
+        {
+          "page": 9,
+          "width": 1754,
+          "height": 1241,
+          "expected_tokens": 11000,
+          "actual_tokens": 11088,
+          "grid": "88x126",
+          "padding": "+10w,+-9h",
+          "status": "PASS"
+        },
+        {
+          "page": 17,
+          "width": 1754,
+          "height": 1241,
+          "expected_tokens": 11000,
+          "actual_tokens": 11088,
+          "grid": "88x126",
+          "padding": "+10w,+-9h",
+          "status": "PASS"
+        },
+        {
+          "page": 25,
+          "width": 1754,
+          "height": 1241,
+          "expected_tokens": 11000,
+          "actual_tokens": 11088,
+          "grid": "88x126",
+          "padding": "+10w,+-9h",
+          "status": "PASS"
+        }
+      ],
+      "qwen": [
+        {
+          "page": 1,
+          "width": 1754,
+          "height": 1241,
+          "expected_tokens": 11000,
+          "actual_tokens": 11088,
+          "grid": "88x126",
+          "padding": "+10w,+-9h",
+          "status": "PASS"
+        },
+        {
+          "page": 9,
+          "width": 1754,
+          "height": 1241,
+          "expected_tokens": 11000,
+          "actual_tokens": 11088,
+          "grid": "88x126",
+          "padding": "+10w,+-9h",
+          "status": "PASS"
+        },
+        {
+          "page": 17,
+          "width": 1754,
+          "height": 1241,
+          "expected_tokens": 11000,
+          "actual_tokens": 11088,
+          "grid": "88x126",
+          "padding": "+10w,+-9h",
+          "status": "PASS"
+        },
+        {
+          "page": 25,
+          "width": 1754,
+          "height": 1241,
+          "expected_tokens": 11000,
+          "actual_tokens": 11088,
+          "grid": "88x126",
+          "padding": "+10w,+-9h",
+          "status": "PASS"
+        }
+      ]
+    },
+    "06_technical_manual": {
+      "total_pages": 50,
+      "sampled_pages": 4,
+      "page_dimensions": [
+        "1241x1754"
+      ],
+      "glm": [
+        {
+          "page": 1,
+          "width": 1241,
+          "height": 1754,
+          "expected_tokens": 11000,
+          "actual_tokens": 11088,
+          "grid": "126x88",
+          "padding": "+-9w,+10h",
+          "status": "PASS"
+        },
+        {
+          "page": 17,
+          "width": 1241,
+          "height": 1754,
+          "expected_tokens": 11000,
+          "actual_tokens": 11088,
+          "grid": "126x88",
+          "padding": "+-9w,+10h",
+          "status": "PASS"
+        },
+        {
+          "page": 34,
+          "width": 1241,
+          "height": 1754,
+          "expected_tokens": 11000,
+          "actual_tokens": 11088,
+          "grid": "126x88",
+          "padding": "+-9w,+10h",
+          "status": "PASS"
+        },
+        {
+          "page": 50,
+          "width": 1241,
+          "height": 1754,
+          "expected_tokens": 11000,
+          "actual_tokens": 11088,
+          "grid": "126x88",
+          "padding": "+-9w,+10h",
+          "status": "PASS"
+        }
+      ],
+      "qwen": [
+        {
+          "page": 1,
+          "width": 1241,
+          "height": 1754,
+          "expected_tokens": 11000,
+          "actual_tokens": 11088,
+          "grid": "126x88",
+          "padding": "+-9w,+10h",
+          "status": "PASS"
+        },
+        {
+          "page": 17,
+          "width": 1241,
+          "height": 1754,
+          "expected_tokens": 11000,
+          "actual_tokens": 11088,
+          "grid": "126x88",
+          "padding": "+-9w,+10h",
+          "status": "PASS"
+        },
+        {
+          "page": 34,
+          "width": 1241,
+          "height": 1754,
+          "expected_tokens": 11000,
+          "actual_tokens": 11088,
+          "grid": "126x88",
+          "padding": "+-9w,+10h",
+          "status": "PASS"
+        },
+        {
+          "page": 50,
+          "width": 1241,
+          "height": 1754,
+          "expected_tokens": 11000,
+          "actual_tokens": 11088,
+          "grid": "126x88",
+          "padding": "+-9w,+10h",
+          "status": "PASS"
+        }
+      ]
+    },
+    "07_accounting_ledger": {
+      "total_pages": 12,
+      "sampled_pages": 4,
+      "page_dimensions": [
+        "2481x1754"
+      ],
+      "glm": [
+        {
+          "page": 1,
+          "width": 2481,
+          "height": 1754,
+          "expected_tokens": 22125,
+          "actual_tokens": 22428,
+          "grid": "126x178",
+          "padding": "+11w,+10h",
+          "status": "PASS"
+        },
+        {
+          "page": 5,
+          "width": 2481,
+          "height": 1754,
+          "expected_tokens": 22125,
+          "actual_tokens": 22428,
+          "grid": "126x178",
+          "padding": "+11w,+10h",
+          "status": "PASS"
+        },
+        {
+          "page": 9,
+          "width": 2481,
+          "height": 1754,
+          "expected_tokens": 22125,
+          "actual_tokens": 22428,
+          "grid": "126x178",
+          "padding": "+11w,+10h",
+          "status": "PASS"
+        },
+        {
+          "page": 12,
+          "width": 2481,
+          "height": 1754,
+          "expected_tokens": 22125,
+          "actual_tokens": 22428,
+          "grid": "126x178",
+          "padding": "+11w,+10h",
+          "status": "PASS"
+        }
+      ],
+      "qwen": [
+        {
+          "page": 1,
+          "width": 2481,
+          "height": 1754,
+          "expected_tokens": 22125,
+          "actual_tokens": 22428,
+          "grid": "126x178",
+          "padding": "+11w,+10h",
+          "status": "PASS"
+        },
+        {
+          "page": 5,
+          "width": 2481,
+          "height": 1754,
+          "expected_tokens": 22125,
+          "actual_tokens": 22428,
+          "grid": "126x178",
+          "padding": "+11w,+10h",
+          "status": "PASS"
+        },
+        {
+          "page": 9,
+          "width": 2481,
+          "height": 1754,
+          "expected_tokens": 22125,
+          "actual_tokens": 22428,
+          "grid": "126x178",
+          "padding": "+11w,+10h",
+          "status": "PASS"
+        },
+        {
+          "page": 12,
+          "width": 2481,
+          "height": 1754,
+          "expected_tokens": 22125,
+          "actual_tokens": 22428,
+          "grid": "126x178",
+          "padding": "+11w,+10h",
+          "status": "PASS"
+        }
+      ]
+    }
+  }
+}
